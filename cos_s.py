@@ -54,4 +54,4 @@ c = 0
 for i in range(len(rvector)):
     c += l1[i] * l2[i]
 cosine = c / float(sqrt(sum(l1) * sum(l2)))
-print("Cosine similarity: ", cosine)
+print("Cosine similarity:", "% 0.4f"%cosine)
